@@ -1,0 +1,363 @@
+/* Fonts */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Roboto:wght@300;400;700&display=swap');
+
+
+.poppinsB {
+    font-weight: bolder;
+}
+
+.robotoB {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Texts */
+
+h1{
+    margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;        
+}
+
+.pthic{
+    font-size: 25px;
+}
+.pthicb{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+
+/* Colors */
+
+.white {
+    color: white
+}
+
+.yellow{
+    color: #FFC500
+}
+
+.blue{
+    color: #2F5CA8
+}
+
+body{
+    background: url("./images/Topb.svg"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+    background-repeat: no-repeat;
+    background-size: 100% auto, 18% auto, 10% auto, 25% auto, auto auto, 100% auto, auto auto;
+    background-position: 0 0, -3px 1000px, 1720px 700px, 0 4000px, 1660px 3050px, 0 6500px, 1660px 5800px ;
+}
+
+.borderImg {
+    border: 1px solid black;
+    border-radius: 90px;
+    height: 150px;
+    width: 150px;
+}
+
+/* Photos */
+
+.David{
+    background-image: url("./images/David.jpg");
+     background-size: 130% auto;
+}
+
+.Drai{
+    background-image: url("./images/Drai.jpeg");
+     background-size: 100% auto;
+}
+
+.Hachi{
+    background-image: url("./images/Hachi.jpg");
+     background-size: 100% auto;
+}
+
+.Joel{
+    background-image: url("./images/Joel.jpg");
+     background-size: 114% auto;
+}
+
+.Laia{
+    background-image: url("./images/Laia.png");
+     background-size: 100% auto;
+}
+
+.Nico{
+    background-image: url("./images/Nico.jpg");
+     background-size: 100% auto;
+}
+
+.Unai{
+    background-image: url("./images/Unai.jpg");
+     background-size: 100% auto;
+}
+
+/* Elements */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.arrow{
+    background-image: url("./images/Icon-arrow.svg");
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    position:absolute; 
+    right:-30px;
+}
+
+
+.flexd {
+    display: flex;
+}
+
+.zindex1{
+    z-index: 1;
+}
+
+.nopadding{
+    padding: 0;
+}
+.marg{
+    margin-top: 10%;
+}
+
+.gridbox{
+    padding-left: 11%;
+}
+
+.grid   {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: 78%;
+    margin: auto;    
+}
+    
+.grid2   {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+/* Splide */
+.splide__list{
+    padding: 10%;
+}
+
+.simg {
+    width: 200px;
+}
+
+/* Page */
+
+.page{
+    position: absolute;
+    top: 0;       
+    left: 0;    
+}  
+
+.head{
+    margin-bottom: 10%;
+}
+
+.iconcontainer{
+    width: 300px;
+    margin: 0;
+}
+
+.listcontainer{
+    margin-top: 3%;
+    margin-right: 0;
+    padding: 0;
+    width: 1200px;   
+    right: 0;    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.trynow{   
+   padding: 25px;
+   background-image: url("./images/trynow1.svg");
+   background-size: 100% 100%; text-decoration: none;
+   text-align: center;
+   justify-content: center;
+}
+
+.trynow:hover{  
+   background-image: url("./images/trynow2.svg");
+   background-size: 100% 100%; 
+   text-decoration: none;
+}
+
+.discovercont{    
+    max-height: 938px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.desctxt{
+    
+    margin-top: 2%;    
+    font-family: robot;
+}
+
+.desctxt p{
+    margin-bottom: 2%; 
+}
+
+.justify-content-between >div{
+    min-height: 200px;
+}
+
+
+.downldbtn{  
+    height: 64px;  
+    width: 255px;
+    background-image: url("./images/btnDwnl1.svg");    
+    background-size: 100% 100%;
+    margin-left: 45%;
+    margin-top: 12%;
+}
+
+.downldbtn:hover{    
+     background-image: url("./images/btnDwnl2.svg");
+     background-size: 100% 100%;
+}
+.downldbtn2{  
+    height: 64px;  
+    width: 255px;
+    background-image: url("./images/btnDwnl1.svg");    
+    background-size: 100% 100%;
+}    
+
+    .downldbtn2:hover{    
+        background-image: url("./images/btnDwnl2.svg");
+        background-size: 100% 100%;
+    }
+
+.downldbtnIOS{
+    height: 64px;  
+    width: 255px;
+    background-image: url("./images/DwnldIOS.svg");    
+    background-size: 100% 100%;
+}
+
+    .downldbtnIOS:hover{
+        background-image: url("./images/DwnldIOS2.png");
+        background-size: 100% 100%;
+    }
+
+.phone1{    
+    display: flex;
+    margin-top: -50%;
+    margin-left: -30%;    
+}
+
+.trailer {
+    margin-bottom: 8%;  
+    align-items: center;  
+    justify-content: center;    
+}
+
+.colcontainer{    
+    align-items: center;
+    justify-content: center;
+}
+
+.tcontainer{
+    width: 900px;
+    height: 530px;
+    justify-content: center;
+}
+
+.descontainer{
+    margin-bottom: 25%;
+}
+
+.descicon{
+    width: 83px;    
+}
+
+.descimg{
+    max-height: 110px;
+    
+}
+
+.descicon img{
+    margin-bottom: 1em;
+}
+
+.descicon h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+
+.downloadcontainer{
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
+
+.teamcontainer{
+    margin-bottom: 15%; 
+}
+
+.contactcontainer{
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.instagram{
+    width: 62px;
+    height: 62px;
+    background-image: url(./images/Instagram-logo.svg);
+    background-size: 100% 100%;
+}
+
+.tiktok{
+    width: 62px;
+    height: 62px;
+    background-image: url(./images/TikTok-logo.svg);
+    background-size: 100% 100%;
+}
+
+.tweeter{
+    width: 62px;
+    height: 62px;
+    background-image: url(./images/Twitter-logo.svg);
+    background-size: 100% 100%;
+}
+
+.facebook{
+    width: 62px;
+    height: 62px;
+    background-image: url(./images/Facebook-logo.svg);
+    background-size: 100% 100%;
+}
