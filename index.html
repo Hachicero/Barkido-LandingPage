@@ -13,6 +13,16 @@
     <!-- Stylesheet & temporary styles-->
     <link rel="stylesheet" href="./style.css">    
 
+    <!-- animations -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
+
+    <!-- aos -->
+
+    <link rel="stylesheet" href="./aos/aos.css">
+
+    
+
     <!--Rest -->
     <title>Barkido</title>
    
@@ -123,7 +133,34 @@
                 </div>
                 <div class="col-7">
                     <h1>Conectamos con tu comunidad</h2>
-                    <p class="pthic">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit quaerat facilis dicta sequi natus, magnam ut eius dolores nam alias necessitatibus nihil maiores dolorem. Eos maxime similique mollitia? Qui voluptate hic sint aspernatur! Fuga, esse quidem commodi et eveniet velit, delectus consectetur ullam doloribus alias ipsam perferendis fugiat, magni dicta!</p>
+                        <div id="Carousel2" class="carousel2 slide" data-ride="carousel">                                     
+                            <div class="carousel-inner ">
+                              <div class="carousel-item active">           
+                                <div class="commentC d-flex align-items-center">
+                                    <img class="photoC" src="./images/carousel/comments/HG.png" alt="">
+                                    <p class="pthic commentP">A mi Chispas le cuesta socializar con otros perros y gracias a esta aplicación puedo ver en qué parques están los perros con los que intentamos no encontrarnos antes de salir de casa y así evitar conflictos.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="commentC d-flex align-items-center d-flex">
+                                    <img class="photoC" src="./images/carousel/comments/GwP.png" alt="">
+                                    <p class="pthic commentP">Mi perrito siempre ha tenido problemas para socializar con otros perros dada su apariencia, aunque es un solete. Con esta app puedo mostrar a mi perro como realmente es y que le conozcan.</p>
+                                </div>             
+                              </div>
+                              <div class="carousel-item">
+                                <div class="commentC d-flex align-items-center d-flex">
+                                    <img class="photoC" src="./images/carousel/comments/G1.png" alt="">
+                                    <p class="pthic commentP">Con mi pareja y nuestro perro somos nuevos en el barrio y con Barkido hemos podido conocer y conectar rápidamente con otras personas y hacer amigos juntos!</p>
+                                </div>                         
+                              </div>
+                              <div class="carousel-item">
+                                <div class="commentC d-flex align-items-center d-flex">
+                                    <img class="photoC" src="./images/carousel/comments/GwPs.png" alt="">
+                                    <p class="pthic commentP">Hacía tiempo que buscaba una compañera para mi gata Gala y con esta aplicación me ha sido muy fácil poder encontrar una protectora cerca de mi casa dónde poder adoptar a Titus. </p>
+                                </div>  
+                              </div>
+                            </div>                                                         
+                        </div>
                 </div>
             </div>
         </div>
@@ -159,7 +196,7 @@
                             </div>
                             <div class="col-8">
                                 <h3>Apartado dedicado a los animales perdidos</h3>
-                                <p class="pthic">Unid fuerzas con otros Barkers para que ningun animal de compañia permanezca perdido.</p>
+                                <p class="pthic">Unid fuerzas con otros Barkers para que ningún animal de compañia permanezca perdido.</p>
                             </div>
                         </div>
                         <div class="col-6 flexd mb-5">
@@ -186,7 +223,7 @@
                             </div>
                             <div class="col-8">
                                 <h3>Chatea con otros Barkers</h3>
-                                <p class="pthic">Conecta e interactua con tus amigos y plnifica encuentros con vuestros compis de cuatro patas.</p>
+                                <p class="pthic">Conecta e interactúa con tus amigos y plnifica encuentros con vuestros compis de cuatro patas.</p>
                             </div>
                         </div>
                     </div>
@@ -253,8 +290,99 @@
                     <h1>Planes de subscripción</h1>
                     <p class="pthic">Escoge el que mejor se adapte a ti</p>
                 </div>
-                <div class="col-12">
-                    <img src="./images/subs2.svg" alt="">
+                <div class="col-12 subscription">
+                    <!-- Aqui va el row que contendrá los distintos planes de subscripción -->
+                    <div class="row">
+                        <!-- Este row contiene las cajas externas para ordenarlas-->
+                        <div class="col-4 subscriptionbox">
+                            <!-- Este es el contenedor de cada caja, con un padding para darles una separación entre ellas-->
+                            <div class="col-12 subscriptionback">
+                                <!-- Este col es el fondo de pantalla con un border radius para redondearlo-->
+                                <div class="subscriptionType">
+                                    <h1 class="blue thic"> Basic </h1>
+                                </div>
+                                <div class="subscriptionPrice">
+                                    <h2 class="blue thic"> Gratuito </h2>
+                                </div>
+                                <div class="subscriptionInfo">
+                                    <p class="pl">Entrar a formar parte de una comunidad creciente.</p>
+                                    <p class="pbg pl">Acceso a la aplicación y a todas sus funcionalidades.</p>
+                                    <p class="pl">Acceso a la aplicación y a todas sus funcionalidades.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 subscriptionbox">
+                            <!-- Este es el contenedor de cada caja, con un padding para darles una separación entre ellas-->    
+                            <div class="col-12 subscriptionback">
+                                <!-- Este col es el fondo de pantalla con un border radius para redondearlo-->
+                                <div class="subscriptionType">
+                                    <h1 class="blue thic"> Pup Tier </h1>
+                                </div>
+                                <div class="container">
+                                    <div class="row subscriptionPriceRow">
+                                        <div class="col-6 subscriptionPrice alt">
+                                            <p class="blue thic compact">Mensual</p>
+                                            <p class="blue compact">Collar de diseño</p>
+                                            <h3 class="blue thic compact">35€</h3>
+                                            <p class="blue compact">+</p>
+                                            <p class="blue compact">5 €/mes</p>
+                                        </div>
+                                        <div class="col-6 subscriptionPriceb alt">
+                                            <p class="yellow thic compact">Anual</p>
+                                            <p class="yellow compact">Collar de diseño</p>
+                                            <h3 class="yellow thic compact">35 €</h3>
+                                            <p class="yellow compact">+</p>
+                                            <p class="yellow compact">3,75 €/mes</p>
+                                        </div>                                  
+                                    </div>
+                                </div>
+                                <div class="subscriptionInfo">
+                                    <p class="pl">Entrar a formar parte de una comunidad creciente.</p>
+                                    <p class="pbg pl">Acceso a la aplicación y a todas sus funcionalidades.</p>
+                                    <p class="pl">Acceso a la aplicación y a todas sus funcionalidades.</p>
+                                    <p class="pl">Visualiza todo el contenido de la aplicación, libre de anuncios.</p>
+                                    <p class="pbg pl">Vincula tu <strong>Tracker</strong> Bluetooth a la app para poder seguir los pasos de tu compañero animal.</p>
+                                    <p class="pl">Obtén nuestro collar con un diseño dedicado al respeto animal para tu animal de compañía.</p>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="col-4 subscriptionbox">
+                            <!-- Este es el contenedor de cada caja, con un padding para darles una separación entre ellas-->
+                            <div class="col-12 subscriptionback">
+                                <!-- Este col es el fondo de pantalla con un border radius para redondearlo-->
+                                <div class="subscriptionTypeb">
+                                    <h1 class="yellow thic"> Doggo Tier </h1>
+                                </div>
+                                <div class="container">
+                                    <div class="row subscriptionPriceRow">
+                                        <div class="col-6 subscriptionPriceb alt">
+                                            <p class="yellow thic compact">Mensual</p>
+                                            <p class="yellow compact">Collar + Tracker</p>
+                                            <h3 class="yellow thic compact">70 €</h3>
+                                            <p class="yellow compact">+</p>
+                                            <p class="yellow compact">5 €/mes</p>
+                                        </div>
+                                        <div class="col-6 subscriptionPricec alt">
+                                            <p class="blue thic compact">Anual</p>
+                                            <p class="blue compact">Collar + Tracker</p>
+                                            <h3 class="blue thic compact">70 €</h3>
+                                            <p class="blue compact">+</p>
+                                            <p class="blue compact">3,75 €/mes</p>
+                                        </div>                                  
+                                    </div>
+                                </div>
+                                <div class="subscriptionInfo">
+                                    <p class="pl">Entrar a formar parte de una comunidad creciente.</p>
+                                    <p class="pbg pl">Acceso a la aplicación y a todas sus funcionalidades.</p>
+                                    <p class="pl">Acceso a la aplicación y a todas sus funcionalidades.</p>
+                                    <p class="pbg pl">Visualiza todo el contenido de la aplicación, libre de anuncios.</p>
+                                    <p class="pl">Vincula tu <strong>Tracker</strong> Bluetooth a la app para poder seguir los pasos de tu compañero animal.</p>
+                                    <p class="pbg pl">Obtén nuestro collar con un diseño dedicado al respeto animal para tu animal de compañía.</p>
+                                    <p class="pl">Obtén nuestro <strong>Tracker</strong> Bluetooth listo para usarlo junto con Barkido.</p>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>        
@@ -281,27 +409,27 @@
                 <div class="col-12 gridbox">
                     <div class="grid">
                         <div>
-                            <div class="borderImg Unai"></div>
+                            <div id="MemberP trigger" class="borderImg Unai" data-aos="zoom-in" data-aos-offset="200"></div>
                         </div>
                         <div>
-                            <div class="borderImg Laia"></div>
+                            <div id="MemberP trigger" class="borderImg Laia" data-aos="zoom-in" data-aos-offset="200"></div>
                         </div>
                         <div>
-                            <div class="borderImg Drai"></div>
+                            <div id="MemberP trigger" class="borderImg Drai" data-aos="zoom-in" data-aos-offset="200"></div>
                         </div>
                     </div>
                     <div class="grid2">    
                         <div>
-                            <div class="borderImg David"></div>
+                            <div id="MemberP trigger" class="borderImg David" data-aos="zoom-in" data-aos-offset="200"></div>
                         </div>
                         <div>
-                            <div class="borderImg Joel"></div>                                                         
+                            <div id="MemberP trigger" class="borderImg Joel" data-aos="zoom-in" data-aos-offset="200"></div>                                                         
                         </div>
                         <div>
-                            <div class="borderImg Hachi"></div>                                                            
+                            <div id="MemberP trigger" class="borderImg Hachi" data-aos="zoom-in" data-aos-offset="200"></div>                                                            
                         </div>
                         <div>
-                            <div class="borderImg Nico"></div>                                  
+                            <div id="MemberP" class="borderImg Nico" data-aos="zoom-in"></div>                                  
                         </div>
                     </div>
                 </div>
@@ -362,7 +490,8 @@
 
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->        
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous">
@@ -370,12 +499,57 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous">
-    </script>      
-    <script>$('.carousel').carousel({
-            interval: false
-        })
+    </script> 
+
+    <!-- carousel animations -->     
+        <script>$('.carousel').carousel({
+                interval: false
+            })
+        </script>
+        <script>$('.carousel2').carousel({
+            interval: 1000 * 5
+                })
+        </script>
+    <!-- aos js -->
+    <script src="./aos/aos.js"></script>
+
+    <script>
+        AOS.init({duration: 8000,});
     </script>
-  
+
+    <!-- scrollmagic -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>        
+        <script src="./scrollmagic/plugins/TweenMax.min.js"></script>
+    <script src="./scrollmagic/plugins/animation.gsap.js"></script>
+        
+        <script>
+            const controller = new ScrollMagic.Controller();     
+            const scene = new ScrollMagic.Scene({ triggerElement: "gridbox", duration: 200, offset: -50 })
+            .setTween(".gridbox", 1, { className: "+=animate__fadeIn" })
+            .addIndicators({ name: "marcador" })
+            .addTo(controller);
+        </script>   
+
+    <!-- detector for animations 
+
+        <script>
+            const observer = new IntersectionObserver(entries => {                
+                entries.forEach(entry => {
+                    // If the element is visible
+                    if (entry.isIntersecting) {
+                        // Add the animation class
+                        entry.target.classList.add('animate__fadeIn');
+                    }
+                    square.classList.remove('animate__fadeIn');
+                });
+            });
+
+            // Tell the observer which elements to track
+            observer.observe(document.querySelector('.trigger'));
+        </script>  
+     --> 
   
 </body>
 

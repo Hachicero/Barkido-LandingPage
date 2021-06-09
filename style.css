@@ -33,10 +33,19 @@ p{
 
 .pthic{
     font-size: 25px;
+    word-break: keep-all;
 }
 .pthicb{
     font-size: 25px;
     font-weight: bold;
+}
+
+.thic {
+    font-weight: bold;
+}
+
+.compact {
+    margin: -2px;
 }
 
 ul li a {
@@ -67,8 +76,7 @@ body{
     background-position: 0 0, -3px 1000px, 1720px 700px, 0 4000px, 1660px 3050px, 0 6500px, 1660px 5800px ;
 }
 
-.borderImg {
-    border: 1px solid black;
+.borderImg {    
     border-radius: 90px;
     height: 150px;
     width: 150px;
@@ -109,7 +117,7 @@ body{
 .Unai{
     background-image: url("./images/Unai.png");
      background-size: 100% auto;
-}
+} 
 
 /* Elements */
 
@@ -143,6 +151,7 @@ html {
 
 .gridbox{
     padding-left: 11%;
+    animation-duration: 10s;
 }
 
 .grid   {
@@ -156,8 +165,24 @@ html {
 .grid2   {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    text-align: center;
-    
+    text-align: center;    
+}
+
+.commentC {
+    height: 400px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.photoC {
+    min-width: 150px;
+    max-width: 150px;
+    align-self: center;
+}
+
+.commentP {
+    max-width: 420px;
+    max-height: 350px;
 }
 
 
@@ -404,3 +429,79 @@ a:hover{
     background-image: url(./images/Facebook-logo.svg);
     background-size: 100% 100%;
 }
+
+/* Subscription plans */
+
+.subscription{
+    height: 800px;
+}
+
+.subscriptionbox {
+ padding: 20px;
+}
+
+.subscriptionback {
+    height: 900px;   
+    border-radius: 20px;     
+    background-color:#F1F1F1;
+    padding: 0;    
+}
+
+.subscriptionType {
+   height: 110px;
+   background-color: #B9DDE8;
+   border-radius: 25px 25px 0 0; 
+   padding-top: 30px;
+}
+.subscriptionTypeb {
+    height: 110px;
+    background-color: #2F5CA8;
+    border-radius: 25px 25px 0 0; 
+    padding-top: 30px;
+}
+
+.subscriptionPriceRow{
+    justify-content: space-between;
+}
+
+.subscriptionPrice{
+    height: 120px;
+    margin-top: 8px;
+    background-color: #B9DDE8;
+    padding-top: 35px;
+}
+
+.subscriptionPriceb {
+    height: 120px;
+    margin-top: 8px;
+    background-color: #2F5CA8;
+    padding-top: 35px;
+}
+
+.subscriptionPricec {
+    height: 120px;
+    margin-top: 8px;
+    background-color: #FFC500;
+    padding-top: 35px;
+}
+
+    .alt{
+        max-width: 165px;
+        padding: 1px;
+    }
+
+.subscriptionInfo {
+    height: 470px;
+    padding-top: 25px;
+    text-align: left;
+}
+
+    .pbg{
+     background-color: #E4E4E4;    
+    }
+
+    .pl{
+        padding-left: 15px;
+    }
+
+
