@@ -99,3 +99,5 @@ exampleCarousel.useControls();
 window.addEventListener('load', e =>{ 
   exampleCarousel.updateGallery();
 })
+
+//  git remote set-url origin https://Hachicero@github.com/Hachicero/Barkido-LandingPage.git
