@@ -234,6 +234,7 @@
                 <div class="col-12" id="screens">
                     <h1>Pantallas de la App</h1>
                 </div>
+
                 <div class="gallery">
                     <div class="gallery-container">
                       <img class="gallery-item" src="./images/carousel/2.svg">
@@ -243,7 +244,8 @@
                       <img class="gallery-item" src="./images/carousel/3.svg">                      
                     </div>
                     <div class="gallery-controls"></div>
-                </div>      
+                </div>                
+                  
             </div>
         </div>
         <!-- Subscriptions-->
@@ -453,7 +455,7 @@
 
 
     <!-- Optional JavaScript -->
-
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->        
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -492,7 +494,26 @@
             .setTween(".gridbox", 1, { className: "+=animate__fadeIn" })
             .addIndicators({ name: "marcador" })
             .addTo(controller);
-        </script>       
+        </script>   
+
+    <!-- detector for animations 
+
+        <script>
+            const observer = new IntersectionObserver(entries => {                
+                entries.forEach(entry => {
+                    // If the element is visible
+                    if (entry.isIntersecting) {
+                        // Add the animation class
+                        entry.target.classList.add('animate__fadeIn');
+                    }
+                    square.classList.remove('animate__fadeIn');
+                });
+            });
+
+            // Tell the observer which elements to track
+            observer.observe(document.querySelector('.trigger'));
+        </script>  
+     --> 
   
 </body>
 
