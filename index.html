@@ -4,12 +4,13 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+        
     <!-- Stylesheet & temporary styles-->
     <link rel="stylesheet" href="./style.css">    
 
@@ -23,7 +24,8 @@
 
     <!--Rest -->
     <title>Barkido</title>
-   
+
+    
 
 </head>
 
@@ -34,7 +36,7 @@
         <nav id="navigation" class="navbar navbar-light d-flex head ">
             <div class="container d-flex iconcontainer">
                 <a class="navbar-brand d-flex align-items-center" href="#navigation">
-                    <img src="images/Logo-2x.png" alt="" width="116" height="111">
+                    <img class= "" src="images/Logo-2x.png" alt="" width="116" height="111">
                     <h1 class="poppinsB blue  mt-5 ml-5">BARKIDO</h1>
                 </a>
             </div>
@@ -65,14 +67,15 @@
         </nav>
         <!--Discover-->
         <div id="discover" class="container discovercont">
-            <div class="row ">
-                <div class="col-7 desctxt">
+            <div class="row d-flex justify-content-center">
+                <img class="img-fluid" id="Phone1Alt" src="./images/phone1a.png" alt="">
+                <div class="col-12 col-md-7 desctxt">
                     <h1>Descubrir y conectar con los amigos de tu compañero peludo nunca ha sido tan fácil</h1>
                     <p class="pthic">Barkido es una app comprometida con el bienestar animal y promueve la interacción positiva entre los animales y los seres humanos.</p><p class="pthic">¿Y tu, ya formas parte de Barkido?</p>
                     <a href="#"><div class="downldbtn"></div></a>
                 </div>
-                <div class="col-5">
-                    <img class="phone1" src="./images/GalaxyS20Ultra.png" alt="">
+                <div class="col-5" id="Phone1">
+                    <img class="phone1 img-fluid" src="./images/phone1a.png" alt="">
                 </div>
             </div>
         </div>
@@ -89,6 +92,7 @@
         </div>
         <!-- steps-->
         <div class="container text-center mt-0 mb-2">
+            <!--
             <div class="row align-items-end descontainer">
                 <div class="col-3 descicon  justify-content-between d-flex flex-column ">
                     <img class="descimg" src="./images/Download.svg" alt="">
@@ -99,7 +103,7 @@
                     </div>
                 </div>
                 <div class="col-3 descicon  justify-content-between d-flex flex-column ">
-                    <img class="descimg" src="./images/Collar.svg" alt="">
+                    <img class="descimg img-fluid" src="./images/Collar.svg" alt="">
                     <div style="position:relative">
                         <div class="arrow"></div>  
                         <h3 class="mb-3 mt-3 pthicb">Compra el collar</h3>
@@ -107,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col-3 descicon  justify-content-between d-flex flex-column ">
-                    <img class="descimg" src="./images/Subscription.svg" alt="">
+                    <img class="descimg img-fluid" src="./images/Subscription.svg" alt="">
                     <div style="position:relative; margin-left: -10%;">
                         <div class="arrow"></div>  
                         <h3 class="mb-3 mt-3 pthicb">Escoge tu subscripción</h3>
@@ -115,45 +119,70 @@
                     </div>
                 </div>
                 <div class="col-3 descicon  justify-content-between d-flex flex-column ">
-                    <img class="descimg" src="./images/Phone.svg" alt="">
+                    <img class="descimg img-fluid" src="./images/Phone.svg" alt="">
                     <div>
                         <h3 class="mb-3 mt-3 pthicb">Que se escuche tu Barkido</h3>
                         <p class="pthic">Ya puedes entrar a tu comunidad de Barkers.</p>
                     </div>
                 </div>
+            </div> -->
+            <div class="row">
+                <div class="col-12 col-md-3 column justify-content-center">
+                    <img class="descimg mb-3 img-fluid" src="./images/Download.svg" alt="">
+                    <h3 class="mb-3 mt-3 pthicb">Descarga Barkido</h3>
+                    <p class="pthic">descarga gratuitamente la aplicación en Android y, próximamente, en IOS.</p>
+                </div>
+                <div class="col-12 col-md-3 column justify-content-center">
+                    <img class="descimg mb-1 img-fluid" src="./images/Collar.svg" alt="">
+                    <h3 class="mb-3 mt-3 pthicb">Compra el collar</h3>
+                    <p class="pthic">Escoge entre los distintos diseños en tu tienda favorita.</p>
+                </div>
+                <div class="col-12 col-md-3 column justify-content-center">
+                    <img class="descimg mb-2 img-fluid" src="./images/Subscription.svg" alt="">
+                    <h3 class="mb-3 mt-3 pthicb">Escoge tu subscripción</h3>
+                    <p class="pthic">Escoge el plan que mejor se adapte a tus necesidades y a las de tu amiguito.</p>
+                </div>
+                <div class="col-12 col-md-3 column justify-content-center">
+                    <img class="descimg img-fluid" src="./images/Phone.svg" alt="">
+                    <h3 class="mb-3 mt-2 pthicb">Que se escuche tu Barkido</h3>
+                    <p class="pthic">Ya puedes entrar a tu comunidad de Barkers.</p>
+                </div>
             </div>
+
         </div>
         <!-- Connect-->
         <div class="container text-center mt-5 mb-5">
             <div class="row marg">
-                <div class="col-5">
-                    <img src="./images/TestoP.png" alt="">
+                <div class="col-5 trigger" id="CPhone">
+                    <img class="img-fluid" src="./images/TestoP.png" alt="">
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-md-7">
                     <h1>Conectamos con tu comunidad</h2>
-                        <div id="Carousel2" class="carousel2 slide" data-ride="carousel">                                     
+                    <img class="img-fluid" id="CPhoneAlt" src="./images/TestoP.png" alt="">
+                        <div id="Carousel2" class="carousel2 slide" 
+                        data-ride="carousel">                                     
                             <div class="carousel-inner ">
                               <div class="carousel-item active">           
                                 <div class="commentC d-flex align-items-center">
-                                    <img class="photoC" src="./images/carousel/comments/HG.png" alt="">
+                                    <img class="photoC img-fluid" src="./images/carousel/comments/HG.png" alt="">
                                     <p class="pthic commentP">A mi Chispas le cuesta socializar con otros perros y gracias a esta aplicación puedo ver en qué parques están los perros con los que intentamos no encontrarnos antes de salir de casa y así evitar conflictos.</p>
                                 </div>
                               </div>
                               <div class="carousel-item">
                                 <div class="commentC d-flex align-items-center d-flex">
-                                    <img class="photoC" src="./images/carousel/comments/GwP.png" alt="">
+                                    <img class="photoC img-fluid" src="./images/carousel/comments/GwP.png" alt="">
                                     <p class="pthic commentP">Mi perrito siempre ha tenido problemas para socializar con otros perros dada su apariencia, aunque es un solete. Con esta app puedo mostrar a mi perro como realmente es y que le conozcan.</p>
                                 </div>             
                               </div>
                               <div class="carousel-item">
                                 <div class="commentC d-flex align-items-center d-flex">
-                                    <img class="photoC" src="./images/carousel/comments/G1.png" alt="">
+                                    <img class="photoC img-fluid" src="./images/carousel/comments/G1.png" alt="">
                                     <p class="pthic commentP">Con mi pareja y nuestro perro somos nuevos en el barrio y con Barkido hemos podido conocer y conectar rápidamente con otras personas y hacer amigos juntos!</p>
                                 </div>                         
                               </div>
                               <div class="carousel-item">
                                 <div class="commentC d-flex align-items-center d-flex">
-                                    <img class="photoC" src="./images/carousel/comments/GwPs.png" alt="">
+                                    <img class="photoC img-fluid" src="./images/carousel/comments/GwPs.png" alt="">
                                     <p class="pthic commentP">Hacía tiempo que buscaba una compañera para mi gata Gala y con esta aplicación me ha sido muy fácil poder encontrar una protectora cerca de mi casa dónde poder adoptar a Titus. </p>
                                 </div>  
                               </div>
@@ -170,54 +199,54 @@
                 </div>
                 <div class="col-12 mb-5">
                     <div class="row justify-content-center">
-                        <div class="col-6 flexd mb-5">
+                        <div class="col-12 col-md-6 flexd mb-5">
                             <div class="col-4">
-                                <img src="./images/GeoLoc.svg" alt="">
+                                <img class="img-fluid" src="./images/GeoLoc.svg" alt="">
                             </div>
                             <div class="col-8">
                                 <h3>Geolocalización</h3>
                                 <p class="pthic">Encuentra a tus amigos en tiempo real.</p>
                             </div>
                         </div>
-                        <div class="col-6 flexd mb-5">
+                        <div class="col-12 col-md-6 flexd mb-5">
                             <div class="col-4">
-                                <img src="./images/lock.svg" alt="">
+                                <img class="img-fluid" src="./images/lock.svg" alt="">
                             </div>
                             <div class="col-8">
                                 <h3>Seguridad Garantizada</h3>
                                 <p class="pthic">Para nosotros, tu seguirdad, es primordial y trabajamos día a día para garantizártela.</p>
                             </div>
                         </div>
-                        <div class="col-6 flexd mb-5">
+                        <div class="col-12 col-md-6 flexd mb-5">
                             <div class="col-4">
-                                <img src="./images/hearts.svg" alt="">
+                                <img class="img-fluid" src="./images/hearts.svg" alt="">
                             </div>
                             <div class="col-8">
                                 <h3>Apartado dedicado a los animales perdidos</h3>
                                 <p class="pthic">Unid fuerzas con otros Barkers para que ningún animal de compañia permanezca perdido.</p>
                             </div>
                         </div>
-                        <div class="col-6 flexd mb-5">
+                        <div class="col-12 col-md-6 flexd mb-5">
                             <div class="col-4">
-                                <img src="./images/Star.svg" alt="">
+                                <img class="img-fluid" src="./images/Star.svg" alt="">
                             </div>
                             <div class="col-8">
                                 <h3>Experiencia de Usuario esmerada</h3>
                                 <p class="pthic">Trabajamos para tener un buen disseño adaptable, pensando en todos los posibles usuarios.</p>
                             </div>
                         </div>
-                        <div class="col-6 flexd mb-5">
+                        <div class="col-12 col-md-6 flexd mb-5">
                             <div class="col-4">
-                                <img src="./images/piggybank.svg" alt="">
+                                <img class="img-fluid" src="./images/piggybank.svg" alt="">
                             </div>
                             <div class="col-8">
                                 <h3>App Gratuita</h3>
                                 <p class="pthic">Ser barker no tiene precio. Disfruta de nuestra App sin límites.</p>
                             </div>
                         </div>
-                        <div class="col-6 flexd mb-5">
+                        <div class="col-12 col-md-6 flexd mb-5">
                             <div class="col-4">
-                                <img src="./images/Chat.svg" alt="">
+                                <img class="img-fluid" src="./images/Chat.svg" alt="">
                             </div>
                             <div class="col-8">
                                 <h3>Chatea con otros Barkers</h3>
@@ -236,11 +265,11 @@
                 </div>
                 <div class="gallery">
                     <div class="gallery-container">
-                      <img class="gallery-item" src="./images/carousel/2.svg">
-                      <img class="gallery-item" src="./images/carousel/3.svg">
-                      <img class="gallery-item" src="./images/carousel/4.svg">
-                      <img class="gallery-item" src="./images/carousel/mig.svg">
-                      <img class="gallery-item" src="./images/carousel/3.svg">                      
+                      <img class="gallery-item img-fluid" src="./images/carousel/1.png">
+                      <img class="gallery-item img-fluid" src="./images/carousel/2.png">
+                      <img class="gallery-item img-fluid" src="./images/carousel/3.png">
+                      <img class="gallery-item img-fluid" src="./images/carousel/4.png">
+                      <img class="gallery-item img-fluid" src="./images/carousel/5.png">                      
                     </div>
                     <div class="gallery-controls"></div>
                 </div>      
@@ -303,9 +332,9 @@
                                     <p class="pl">Entrar a formar parte de una comunidad creciente.</p>
                                     <p class="pbg pl">Acceso a la aplicación y a todas sus funcionalidades.</p>
                                     <p class="pl">Acceso a la aplicación y a todas sus funcionalidades.</p>
-                                    <p class="pl">Visualiza todo el contenido de la aplicación, libre de anuncios.</p>
-                                    <p class="pbg pl">Vincula tu <strong>Tracker</strong> Bluetooth a la app para poder seguir los pasos de tu compañero animal.</p>
-                                    <p class="pl">Obtén nuestro collar con un diseño dedicado al respeto animal para tu animal de compañía.</p>
+                                    <p class="pbg pl">Visualiza todo el contenido de la aplicación, libre de anuncios.</p>
+                                    <p class="pl">Vincula tu <strong>Tracker</strong> Bluetooth a la app para poder seguir los pasos de tu compañero animal.</p>
+                                    <p class="pbg pl">Obtén nuestro collar con un diseño dedicado al respeto animal para tu animal de compañía.</p>
                                 </div>    
                             </div>
                         </div>
@@ -367,29 +396,29 @@
         <div class="container text-center teamcontainer">
             <div class="row marg mt-5 mb-5">
                 <div class="col-12" id="team">
-                    <h1>Equipo</h1>
+                    <h1 id="yaveremos">Equipo</h1>
                 </div>
                 <div class="col-12 gridbox">
                     <div class="grid">
                         <div>
-                            <div id="MemberP trigger" class="borderImg Unai" data-aos="zoom-in" data-aos-offset="200"></div>
+                            <div id="MemberP trigger" class="borderImg Unai"></div>
                         </div>
                         <div>
-                            <div id="MemberP trigger" class="borderImg Laia" data-aos="zoom-in" data-aos-offset="200"></div>
-                        </div>
+                            <div id="MemberP trigger" class="borderImg Laia"></div>
+                        </div> 
                         <div>
-                            <div id="MemberP trigger" class="borderImg Drai" data-aos="zoom-in" data-aos-offset="200"></div>
+                            <div id="MemberP trigger" class="borderImg Drai"></div>
                         </div>
                     </div>
                     <div class="grid2">    
                         <div>
-                            <div id="MemberP trigger" class="borderImg David" data-aos="zoom-in" data-aos-offset="200"></div>
+                            <div id="MemberP trigger" class="borderImg David"></div>
                         </div>
                         <div>
-                            <div id="MemberP trigger" class="borderImg Joel" data-aos="zoom-in" data-aos-offset="200"></div>                                                         
+                            <div id="MemberP trigger" class="borderImg Joel"></div>                                                         
                         </div>
                         <div>
-                            <div id="MemberP trigger" class="borderImg Hachi" data-aos="zoom-in" data-aos-offset="200"></div>                                                            
+                            <div id="MemberP trigger" class="borderImg Hachi"></div>                                                            
                         </div>
                         <div>
                             <div id="MemberP" class="borderImg Nico" data-aos="zoom-in"></div>                                  
@@ -413,35 +442,35 @@
         </div>
         <!-- Footer-->
        <div class="container-fluid justify-content-between footer">
-           <div class="row d-flex justify-content-between mt-4">
+           <div class="row d-flex justify-content-between mt-5">
                 <div class="col-4 d-flex iconcontainer">
                     <a class="navbar-brand d-flex align-items-center" href="#navigation">
-                        <img src="images/Logo-2x.png" alt="" width="116" height="111">
+                        <img class="img-fluid" src="images/Logo-2x.png" alt="" width="116" height="111">
                         <div>
                           <h2 class="poppinsB blue mt-5 ml-5">BARKIDO</h2>
                           <p class="pthic">Únete a tu comunidad Barker</p>  
                         </div>                        
                     </a>
                 </div>
-                <div class="col-6 d-flex justify-content-end align-items-center pr-5 mr-5">                    
+                <div class="col-6 d-flex justify-content-end align-items-center mt-5 pr-5 mr-5">                    
                         <div class="mr-4">
                             <a href="https://www.instagram.com/barkido.app/">
-                                <img class="instagram" src="images/Instagram-logo.svg" alt="" width="116" height="111">     
+                                <img class="instagram img-fluid" src="images/Instagram-logo.svg" alt="" width="116" height="111">     
                             </a>
                         </div>
                         <div class="mr-4">
                             <a href="https://www.tiktok.com/@barkido.app?lang=es">
-                                <img class="tiktok" src="images/TikTok-logo.svg" alt="" width="116" height="111">
+                                <img class="tiktok img-fluid" src="images/TikTok-logo.svg" alt="" width="116" height="111">
                             </a>
                         </div>
                         <div class="mr-4">
                             <a href="https://twitter.com/Barkido_App">
-                                <img class="tweeter" src="images/Twitter-logo.svg" alt="" width="116" height="111">
+                                <img class="tweeter img-fluid" src="images/Twitter-logo.svg" alt="" width="116" height="111">
                             </a>
                         </div>
                         <div class="mr-4">
                             <a href="https://www.facebook.com/barkido.app.5">
-                                <img class="facebook" src="images/Facebook-logo.svg" alt="" width="116" height="111">
+                                <img class="facebook img-fluid" src="images/Facebook-logo.svg" alt="" width="116" height="111">
                             </a>
                         </div>                                  
                 </div>                 
@@ -449,7 +478,7 @@
         </div> 
     </div>
     
-    
+   
 
 
     <!-- Optional JavaScript -->
@@ -487,9 +516,9 @@
     <script src="./scrollmagic/plugins/animation.gsap.js"></script>
         
         <script>
-            const controller = new ScrollMagic.Controller();     
-            const scene = new ScrollMagic.Scene({ triggerElement: "gridbox", duration: 200, offset: -50 })
-            .setTween(".gridbox", 1, { className: "+=animate__fadeIn" })
+            const controller = new ScrollMagic.Controller();    
+            const scene = new ScrollMagic.Scene({ triggerElement: "#yaveremos", duration: 200, offset: -50 })
+            .setTween(".gridbox", 1, { className: "+=view" })
             .addIndicators({ name: "marcador" })
             .addTo(controller);
         </script>       
