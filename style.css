@@ -1,3 +1,7 @@
+
+
+
+
 /* Fonts */
 
 
@@ -326,14 +330,14 @@ a:hover{
 
 .trynow{   
    padding: 25px;
-   background-image: url("./images/trynow1.svg");
+   background-image: url("./images/trynow1.svg") !important;
    background-size: 100% 100%; text-decoration: none;
    text-align: center;
    justify-content: center;
 }
 
 .trynow:hover{  
-   background-image: url("./images/trynow2.svg");
+   background-image: url("./images/trynow2.svg")!important;
    background-size: 100% 100%; 
    text-decoration: none;
 }
@@ -411,7 +415,7 @@ a:hover{
 }
 
 .tcontainer{
-    width: 900px;
+    max-width: 900px;
     height: 530px;
     justify-content: center;
 }
@@ -525,7 +529,6 @@ a:hover{
     .pl{
         padding-left: 15px;
     }
-
 /* media queries */
 
 /* PC */
@@ -570,7 +573,231 @@ a:hover{
         margin-bottom: 2em;;    
     }
 }
-
 /* Phone */
 
-@media (max-width:576px){}
+@media (max-width:576px){
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 100% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 10300px, 1900px 5800px ;
+    }
+    .barkidoLogo{
+        width: 90px;
+        height: 80px;
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+    #mainList{
+        margin-top: 16%;
+    }
+    .trynow{
+        margin-top: 60%;
+        margin-bottom: 60%;
+        background-image: url("./images/trynow1.svg") !important;
+    }
+    .downldbtn{
+        margin: auto;
+        margin-top: 20%;
+        margin-bottom: 30%;
+    }
+    .descimg{
+        margin: 4px;
+    }
+    .connectTitle{
+        margin-bottom: 15%;
+    }
+    .gallery-container{
+        max-width: 200px !important;
+    }
+    .subs-tier{
+        display: block !important;
+      }
+      .subscriptionbox {
+        max-width: 80%;
+        margin: auto;
+      }
+      .subscriptionback{
+        height:20%;
+      }
+      .downloadcontainer{
+          margin-top: 260%;
+          margin-bottom: 25%;
+      }
+      .alt{
+        max-width: 190px;
+      }
+      .gridbox {
+        padding-left: 5%;
+    }
+    .borderImg {
+      border-radius: 90px;
+      height: 110px;
+      width: 110px;
+    }
+    .mail-style{
+        margin: -50%;
+    }
+    .barkido-logo-footer{
+        margin-top: 40%;
+        height: 90px;
+        width: 90px;
+    }
+    .barkido-footer{
+        margin-left: 35% !important;
+    }
+    .footer-phrase{
+        margin-left: 10%;
+    }
+    .rrss-icons {
+
+        min-height: 50px !important;
+        height: 50px;
+        margin-top: 35% !important;
+        margin-right: -10% !important;
+    
+    }
+
+}
+@media (max-width:574px){
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 100% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 10170px, 1900px 5800px ;
+    }
+}
+
+@media (max-width:560px){
+
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 10160px, 1900px 5800px ;
+    }
+    .barkidoLogo{
+        width: 80px;
+        height: 70px;
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+    .downloadcontainer{
+        margin-top: 280%;
+    }       
+
+}
+@media (max-width:542px){
+
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 10220px, 1900px 5800px ;
+    }
+}
+
+@media (max-width:520px){
+
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 10200px, 1900px 5800px ;
+    }
+    .barkidoLogo{
+        width: 80px;
+        height: 70px;
+        margin-left: 15%;
+        margin-top: -8%;
+    }
+}
+
+@media (max-width:512px){
+
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 10280px, 1900px 5800px ;
+    }
+    .downloadcontainer{
+        margin-top: 300%;
+    }       
+
+}
+@media (max-width:506px){
+
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 10330px, 1900px 5800px ;
+    }
+    .barkido-logo-footer{
+       margin-top: 33%;
+    }
+}
+@media (max-width:494px){
+
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 10360px, 1900px 5800px ;
+    }
+    .barkidoLogo{
+        width: 80px;
+        height: 70px;
+        margin-left: 15%;
+        margin-top: -12%;
+    }
+
+}
+
+@media (max-width:492px){
+
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 10380px, 1900px 5800px ;
+    }
+
+}
+
+@media (max-width:480px){
+    
+        body{
+            background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+            background-repeat: no-repeat;
+            background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+            background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 10500px, 1900px 5800px ;
+        }
+        .main-title{
+            margin-left: 0 !important;
+            
+        }
+        .trynow{
+            margin-top: 60%;
+            margin-bottom: 60%;
+            background-image: url("./images/trynow1.svg") !important;
+        }
+
+    .downloadcontainer{
+        margin-top: 330%;
+    }
+    .subscriptionInfo {
+        height: 500px;
+    }   
+    .barkido-footer{
+        margin-left: 25% !important;
+    }
+    .barkidoLogo{
+        width: 90px;
+        height: 80px;
+        margin-left: 14%;
+        margin-top: -15%;
+    }
+
+}
