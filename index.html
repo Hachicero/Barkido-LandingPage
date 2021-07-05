@@ -26,6 +26,44 @@
     <!--Rest -->
     <title>Barkido</title>
 
+    <!-- Código Joel -->
+
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const source = urlParams.get('source')
+        const download = urlParams.get('download');
+
+        const getOperativeSystem = info => {
+            if (info.indexOf('android') != -1) {
+                return 'android';
+            } else if (info.indexOf('iphone') != -1) {
+                return 'iphone';
+            }
+        }
+
+        if (source == 'qr') {
+            const agent = navigator.userAgent.toLowerCase();
+            const sis = getOperativeSystem(agent);
+
+            switch (sis) {
+                case 'android':
+                    window.location.href = 'https://play.google.com/store/apps/details?id=com.instagram.android&hl=ca&gl=US';
+                    break;
+                case 'iphone':
+                    window.location.href = 'https://apps.apple.com/es/app/instagram/id389801252';
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        if (download == 'apk') {
+            window.location.href = "https://www.barkido.com/apk/Barkido.apk";
+        }
+
+    </script>
+
     
 
 </head>
@@ -519,8 +557,7 @@
         <script>
             const controller = new ScrollMagic.Controller();    
             const scene = new ScrollMagic.Scene({ triggerElement: "#yaveremos", duration: 200, offset: -50 })
-            .setTween(".gridbox", 1, { className: "+=view" })
-            .addIndicators({ name: "marcador" })
+            .setTween(".gridbox", 1, { className: "+=view" })            
             .addTo(controller);
         </script>       
   
