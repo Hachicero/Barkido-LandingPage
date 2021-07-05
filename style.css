@@ -80,7 +80,7 @@ body{
     background: url("./images/topb.svg"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
     background-repeat: no-repeat;
     background-size: 100% auto, 18% auto, 10% auto, 15% auto, auto auto, 100% auto, auto auto;
-    background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 bottom, 1900px 5800px ;
+    background-position: 0 0, -3px 1000px, right 700px, 0 4000px, right 3050px, 0 bottom, right 5800px ;
 }
 /* Elements */
 
@@ -129,6 +129,12 @@ body{
             background-image: url("./images/Unai1.png");
             background-size: 100% auto;
         } 
+
+.dropdown{
+    display: none;
+    top: 18px;
+
+}
 
 #mainList {
     max-width: 900px;
@@ -544,7 +550,7 @@ a:hover{
     body{
         
         background-size: 100% auto, 10% auto, 10% auto, 21% auto, 15% auto, 100% auto, auto auto;
-        background-position: 0 0, -3px 1000px, 1440px 700px, 0 4000px, 1380px 3050px, 0 6500px, 1400px 5800px ;
+        background-position: 0 0, -3px 1000px, right 700px, 0 4000px, right 3050px, 0 6500px, right 5800px ;
     }
 
     .phone1{    
@@ -575,12 +581,13 @@ a:hover{
     #Phone1Alt{
         display:block;    
         max-height: 400px;
-        margin-bottom: 2em;;    
+        margin-bottom: 2em;;
+        margin-top: 200px;    
     }
 }
 /* Phone */
 
-@media (max-width:576px){
+@media (max-width:578px){
     body{
         background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
         background-repeat: no-repeat;
@@ -593,8 +600,15 @@ a:hover{
         margin-left: 15%;
         margin-top: -5%;
     }
-    #mainList{
-        margin-top: 16%;
+    .trynow{
+        display: none;
+    }
+    .dropdown{
+        display: inline-block;
+        
+    }
+    .navbar{
+        display: none;
     }
     .trynow{
         margin-top: 60%;

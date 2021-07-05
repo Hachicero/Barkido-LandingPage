@@ -76,12 +76,23 @@
             <div class="container d-flex iconcontainer">
                 <a class="navbar-brand d-flex align-items-center" href="#navigation">
                     <img class= "barkidoLogo" src="images/Logo-2x.png" alt="" width="116" height="111">
-                    <h1 class=" main-title poppinsB blue  mt-5 ml-5">BARKIDO</h1>
+                    <h1 class=" main-title poppinsB blue  mt-5 ml-md-5">BARKIDO</h1>
                 </a>
+            </div> 
+            <!-- Dropdown -->
+            <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item pthicb" href="#trailer">Trailer</a>
+                <a class="dropdown-item pthicb" href="#specs">Características</a>
+                <a class="dropdown-item pthicb" href="#screens">Pantallas</a>
+                <a class="dropdown-item pthicb" href="#subscription">Tarifas</a>
+                <a class="dropdown-item pthicb" href="#team">Equipo</a>                
             </div>
-           
-            <!-- Prueba Collapse -->
-            
+            </div>
+            <!-- Nav list -->
             <div id="mainList" class="container d-flex justify-content-center listcontainer">
                 <ul class="navbar list-unstyled">                    
                     <li class="nav-item">
@@ -563,7 +574,15 @@
             .setTween(".gridbox", 1, { className: "+=view" })            
             .addTo(controller);
         </script>       
-  
+
+    <!-- Dropdown -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script>
+    const button = document.querySelector('#button');
+    const tooltip = document.querySelector('#tooltip');
+
+    const popperInstance = Popper.createPopper(button, tooltip);
+    </script>
 </body>
 
 </html>

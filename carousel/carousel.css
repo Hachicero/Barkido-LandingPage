@@ -156,7 +156,7 @@
   width: 10px;
 }
 
-@media (max-width:576px){
+@media (max-width:767px){
   .gallery-container {
     height: 500px;
   }
