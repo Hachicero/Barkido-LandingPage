@@ -80,7 +80,9 @@ body{
     background: url("./images/topb.svg"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
     background-repeat: no-repeat;
     background-size: 100% auto, 18% auto, 10% auto, 15% auto, auto auto, 100% auto, auto auto;
-    background-position: 0 0, -3px 1000px, right 700px, 0 4000px, right 3050px, 0 bottom, right 5800px ;
+    background-position: 0 0, -3px 1000px, right 700px, 0 4000px, right 3050px, 0 bottom, right 5800px ;    
+    overflow-x: hidden;
+
 }
 /* Elements */
 
@@ -662,7 +664,8 @@ a:hover{
         max-width: 190px;
       }
       .gridbox {
-        padding-left: 5%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
     }
     .borderImg {
       border-radius: 90px;
@@ -701,6 +704,13 @@ a:hover{
         background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 100% auto, auto auto;
         background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9500px, 1900px 5800px ;
     }
+    .gallery-container{
+        height: 520px !important;
+    }
+    .title-carousel{
+        margin-bottom: 15%;
+    }
+
 }
 
 @media (max-width:560px){
@@ -820,7 +830,7 @@ a:hover{
         }
 
     .downloadcontainer{
-        margin-top: 330%;
+        margin-top: 340%;
     }
     .subscriptionInfo {
         height: 500px;
@@ -834,5 +844,75 @@ a:hover{
         margin-left: 14%;
         margin-top: -15%;
     }
-
+    .barkido-footer-size{
+        font-size: 1.8em;
+    }
+    .pthic{
+        font-size: 22px;
+    }
 }
+@media (max-width:462px){
+    .borderImg{
+        height: 90px;
+        width: 90px;
+    }
+    .downloadcontainer{
+        margin-top: 370%;
+    }
+    .barkido-footer-size{
+        font-size: 1.6em;
+    }
+    .pthic{
+        font-size: 20px;
+    }
+    .pthicb{
+        font-size: 22px;
+    }
+}
+@media (max-width:424px){
+    .gallery-container{
+        height: 380px !important;
+    }
+    .downloadcontainer{
+        margin-top: 400%;
+    }
+    .barkido-footer-size{
+        font-size: 1.4em;
+    }
+    .pthic{
+        font-size: 18px;
+    }
+    .pthicb{
+        font-size: 20px;
+    }
+}
+@media (max-width:396px){
+    .downloadcontainer{
+        margin-top: 440%;
+    }
+    .borderImg{
+        height: 70px;
+        width: 70px;
+    }
+    .barkido-footer-size{
+        font-size: 1.2em;
+    }
+    .pthic{
+        font-size: 16px;
+    }
+    .pthicb{
+        font-size: 18px;
+    }
+}
+@media (max-width:380px){
+    .barkido-footer-size{
+        font-size: 1em;
+    }
+    .pthic{
+        font-size: 14px;
+    }
+    .pthicb{
+        font-size: 16px;
+    }
+}
+
