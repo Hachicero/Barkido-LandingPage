@@ -26,6 +26,44 @@
     <!--Rest -->
     <title>Barkido</title>
 
+    <!-- Código Joel -->
+
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const source = urlParams.get('source')
+        const download = urlParams.get('download');
+
+        const getOperativeSystem = info => {
+            if (info.indexOf('android') != -1) {
+                return 'android';
+            } else if (info.indexOf('iphone') != -1) {
+                return 'iphone';
+            }
+        }
+
+        if (source == 'qr') {
+            const agent = navigator.userAgent.toLowerCase();
+            const sis = getOperativeSystem(agent);
+
+            switch (sis) {
+                case 'android':
+                    window.location.href = 'https://play.google.com/store/apps/details?id=com.instagram.android&hl=ca&gl=US';
+                    break;
+                case 'iphone':
+                    window.location.href = 'https://apps.apple.com/es/app/instagram/id389801252';
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        if (download == 'apk') {
+            window.location.href = "https://www.barkido.com/apk/Barkido.apk";
+        }
+
+    </script>
+
     
 
 </head>
@@ -38,9 +76,23 @@
             <div class="container d-flex iconcontainer">
                 <a class="navbar-brand d-flex align-items-center" href="#navigation">
                     <img class= "barkidoLogo" src="images/Logo-2x.png" alt="" width="116" height="111">
-                    <h1 class=" main-title poppinsB blue  mt-5 ml-5">BARKIDO</h1>
+                    <h1 class=" main-title poppinsB blue  mt-5 ml-md-5">BARKIDO</h1>
                 </a>
+            </div> 
+            <!-- Dropdown -->
+            <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item pthicb" href="#trailer">Trailer</a>
+                <a class="dropdown-item pthicb" href="#specs">Características</a>
+                <a class="dropdown-item pthicb" href="#screens">Pantallas</a>
+                <a class="dropdown-item pthicb" href="#subscription">Tarifas</a>
+                <a class="dropdown-item pthicb" href="#team">Equipo</a>                
             </div>
+            </div>
+            <!-- Nav list -->
             <div id="mainList" class="container d-flex justify-content-center listcontainer">
                 <ul class="navbar list-unstyled">                    
                     <li class="nav-item">
@@ -62,21 +114,21 @@
                             <a class="nav-link active pthicb" aria-current="page" href="#contact">Contacto</a>
                     </li>
                 </ul>   
-                <a href="#" class="trya pthicb"><div class="trynow text-center robotoB white">Prueba Gratis</div></a>           
+                <a href="https://play.google.com/store/apps/details?id=com.barkido.barkido" class="trya pthicb"><div class="trynow text-center robotoB white">Prueba Gratis</div></a>           
             </div>                
             
         </nav>
         <!--Discover-->
         <div id="discover" class="container discovercont">
             <div class="row d-flex justify-content-center">
-                <img class="img-fluid" id="Phone1Alt" src="./images/phone1a.png" alt="">
+                <img class="img-fluid" id="Phone1Alt" src="./images/Phone1c.png" alt="">
                 <div class="col-12 col-md-7 desctxt">
                     <h1>Descubrir y conectar con los amigos de tu compañero peludo nunca ha sido tan fácil</h1>
                     <p class="pthic">Barkido es una app comprometida con el bienestar animal y promueve la interacción positiva entre los animales y los seres humanos.</p><p class="pthic">¿Y tu, ya formas parte de Barkido?</p>
-                    <a href="#"><div class="downldbtn"></div></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.barkido.barkido"><div class="downldbtn"></div></a>
                 </div>
                 <div class="col-5" id="Phone1">
-                    <img class="phone1 img-fluid" src="./images/phone1a.png" alt="">
+                    <img class="phone1 img-fluid" src="./images/Phone1c.png" alt="">
                 </div>
             </div>
         </div>
@@ -86,7 +138,7 @@
                 <div id="trailer" class="col-12 d-flex flex-column colcontainer">
                     <h1>Tráiler</h1>
                     <div class="embed-responsive embed-responsive-16by9 tcontainer">
-                        <iframe src="https://www.youtube.com/embed/qYSTGfy5TaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/AIqdidltq1U" title="YouTube video player" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -268,7 +320,7 @@
                     <div class="gallery-container">
                       <img class="gallery-item img-fluid" src="./images/carousel/1.png">
                       <img class="gallery-item img-fluid" src="./images/carousel/2.png">
-                      <img class="gallery-item img-fluid" src="./images/carousel/3.png">
+                      <img class="gallery-item img-fluid" src="./images/carousel/3a.png">
                       <img class="gallery-item img-fluid" src="./images/carousel/4.png">
                       <img class="gallery-item img-fluid" src="./images/carousel/5.png">                      
                     </div>
@@ -386,7 +438,7 @@
                     <h1>Descárgalo ahora</h1>
                 </div>
                 <div class="col-6 d-flex justify-content-center">
-                    <div class="downldbtn2"><a href="#"></a></div>
+                    <a href="https://play.google.com/store/apps/details?id=com.barkido.barkido"><div class="downldbtn2"></div></a>
                 </div>
                 <div class="col-6 d-flex justify-content-center">
                     <div class="downldbtnIOS"><a href="#"></a></div>
@@ -435,9 +487,10 @@
                 <div class="col-12 mb-4 " id="contact">
                     <h2>Contacto</h2>
                 </div>
-                <div class="col-4 mt-4 mb-5">
+                <div class="col-4 mt-4 mb-5 d-flex flex-column">
                     <p class="pthic">Contacta con nosotros:</p>
                     <a class="pthicb mail-style" href="mailto:info.barkido@gmail.com">info.barkido@gmail.com</a>
+                    <a href="/politicas_privacidad" class="mail-style code">Política de privacidad</a>
                 </div>
             </div>
         </div>
@@ -453,7 +506,7 @@
                         </div>                        
                     </a>
                 </div>
-                <div class="rrss-icons col-6 d-flex justify-content-end align-items-center mt-5 pr-5 mr-5">                    
+                <div class="rrss-icons col-6 d-flex justify-content-end align-items-center mt-5 pr-lg-5 mr-lg-5">                    
                         <div class="mr-4">
                             <a href="https://www.instagram.com/barkido.app/">
                                 <img class="instagram img-fluid" src="images/Instagram-logo.svg" alt="" width="116" height="111">     
@@ -519,11 +572,19 @@
         <script>
             const controller = new ScrollMagic.Controller();    
             const scene = new ScrollMagic.Scene({ triggerElement: "#yaveremos", duration: 200, offset: -50 })
-            .setTween(".gridbox", 1, { className: "+=view" })
-            .addIndicators({ name: "marcador" })
+            .setTween(".gridbox", 1, { className: "+=view" })            
             .addTo(controller);
         </script>       
-  
+
+    <!-- Dropdown -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script>
+    const button = document.querySelector('#button');
+    const tooltip = document.querySelector('#tooltip');
+
+    const popperInstance = Popper.createPopper(button, tooltip);
+    </script>
 </body>
 
 </html>
+
