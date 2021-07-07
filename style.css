@@ -672,9 +672,6 @@ a:hover{
       height: 110px;
       width: 110px;
     }
-    .mail-style{
-        margin: -50%;
-    }
     
     .barkido-logo-footer{
         margin-top: 40%;
@@ -702,12 +699,16 @@ a:hover{
         background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
         background-repeat: no-repeat;
         background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 100% auto, auto auto;
-        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9500px, 1900px 5800px ;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9600px, 1900px 5800px ;
     }
     .gallery-container{
         height: 520px !important;
     }
     .title-carousel{
+        margin-bottom: 15%;
+    }
+    .mailLink{
+        margin-left: -15%;
         margin-bottom: 15%;
     }
 
@@ -719,7 +720,7 @@ a:hover{
         background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
         background-repeat: no-repeat;
         background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
-        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9500px, 1900px 5800px ;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9620px, 1900px 5800px ;
     }
     .barkidoLogo{
         width: 80px;
@@ -738,7 +739,7 @@ a:hover{
         background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
         background-repeat: no-repeat;
         background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
-        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9500px, 1900px 5800px ;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9700px, 1900px 5800px ;
     }
 }
 
@@ -748,13 +749,21 @@ a:hover{
         background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
         background-repeat: no-repeat;
         background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
-        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9500px, 1900px 5800px ;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9680px, 1900px 5800px ;
     }
     .barkidoLogo{
         width: 80px;
         height: 70px;
         margin-left: 1px;
         margin-top: -8%;
+    }
+    .downldbtn2{
+        height: 50px;
+        width: 200px;
+    }
+    .downldbtnIOS{
+        height: 50px;
+        width: 200px;
     }
 }
 
@@ -764,7 +773,7 @@ a:hover{
         background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
         background-repeat: no-repeat;
         background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
-        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9500px, 1900px 5800px ;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9750px, 1900px 5800px ;
     }
     .downloadcontainer{
         margin-top: 300%;
@@ -777,7 +786,7 @@ a:hover{
         background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
         background-repeat: no-repeat;
         background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
-        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9500px, 1900px 5800px ;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9760px, 1900px 5800px ;
     }
     .barkido-logo-footer{
        margin-top: 33%;
@@ -789,7 +798,7 @@ a:hover{
         background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
         background-repeat: no-repeat;
         background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
-        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9500px, 1900px 5800px ;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9800px, 1900px 5800px ;
     }
     .barkidoLogo{
         width: 80px;
@@ -806,7 +815,7 @@ a:hover{
         background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
         background-repeat: no-repeat;
         background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
-        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9500px, 1900px 5800px ;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9800px, 1900px 5800px ;
     }
 
 }
@@ -817,7 +826,7 @@ a:hover{
             background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
             background-repeat: no-repeat;
             background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
-            background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9500px, 1900px 5800px ;
+            background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9700px, 1900px 5800px ;
         }
         .main-title{
             margin-left: 0 !important;
@@ -852,6 +861,13 @@ a:hover{
     }
 }
 @media (max-width:462px){
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9650px, 1900px 5800px ;
+    }
+    
     .borderImg{
         height: 90px;
         width: 90px;
@@ -870,6 +886,12 @@ a:hover{
     }
 }
 @media (max-width:424px){
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9400px, 1900px 5800px ;
+    }
     .gallery-container{
         height: 380px !important;
     }
@@ -885,8 +907,25 @@ a:hover{
     .pthicb{
         font-size: 20px;
     }
+    .downldbtn2{
+        height: 40px;
+        width: 160px;
+        margin-top: 20%;
+
+    }
+    .downldbtnIOS{
+        height: 40px;
+        width: 160px;
+        margin-top: 20%;
+    }
 }
 @media (max-width:396px){
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9400px, 1900px 5800px ;
+    }
     .downloadcontainer{
         margin-top: 440%;
     }
@@ -905,6 +944,12 @@ a:hover{
     }
 }
 @media (max-width:380px){
+    body{
+        background: url("./images/topb2.png"),url("./images/TMidL.svg"), url("./images/TMidR.svg"), url("./images/BMidL.svg"), url("./images/BMidR.svg"), url("./images/Bot.svg"), url("./images/BotR.svg");    
+        background-repeat: no-repeat;
+        background-size: 100% auto, 25% auto, 18% auto, 24% auto, auto auto, 115% auto, auto auto;
+        background-position: 0 0, -3px 1000px, 1940px 700px, 0 4000px, 1900px 3050px, 0 9150px, 1900px 5800px ;
+    }
     .barkido-footer-size{
         font-size: 1em;
     }
